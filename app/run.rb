@@ -27,7 +27,7 @@ class Welcome <  Gosu::Window
   include Config
   def initialize
     super 640, 480
-    connect
+    # connect
     self.caption = "Party Maker!"
 
     text =
@@ -42,7 +42,7 @@ class Welcome <  Gosu::Window
     # Remove all leading spaces so the text is left-aligned
     text.gsub! /^ +/, ""
 
-    @text = Gosu::Image.from_text text, 20, width: WIDTH - 2 * PADDING
+    @text = Gosu::Image.from_text text, 20
     clear
     @background = Gosu::Image.new "media/space.png"
   end

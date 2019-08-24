@@ -4,9 +4,10 @@ require 'matrix'
 require "midi-eye"
 require 'pry'
 $:.unshift(File.join("..", "lib"))
+Dir['./*.rb'].each {|file| require file }
+
 
 class Waves < Gosu::Window
-  include Gamerules
   include Connection
   include Waves_types
 

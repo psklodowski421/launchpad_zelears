@@ -1,21 +1,18 @@
 require 'gosu'
 require 'unimidi'
 require 'matrix'
-require "midi-eye"
+require 'midi-eye'
 require 'pry'
 $:.unshift(File.join("..", "lib"))
-Dir["./*.rb"].each {|file| require file }
+Dir['./*.rb'].each {|file| require file }
 
 class Sleeper < Gosu::Window
-  attr_accessor :esc, :speed , :text, :timer
-  include Config
-  include Control
-  include Gamerules
+  attr_accessor :esc, :speed, :text, :timer
   include Connection
 
   def initialize
     super 600, 600
-    self.caption = "Fun Light"
+    self.caption = 'Fun Light'
     @esc = 0
     @speed = 5
     connect

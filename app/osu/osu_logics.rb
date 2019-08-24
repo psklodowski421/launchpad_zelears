@@ -6,7 +6,7 @@ module Testme
         @dots_number += 1
         @output.puts(0x90,@random_memory = @notes_osu.sample,rand(1..120))
         @array_of_dots.push(@random_memory)
-        @notes_osu.delete()
+        # @notes_osu.delete()
       end
     end
   end
