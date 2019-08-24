@@ -1,0 +1,19 @@
+def move(x)
+  @memory=table[@y,@x]
+  output.puts(0x80,@memory,20)
+  8.times do
+    if @y >= 8
+      @y =0
+    end
+
+    if x == 1
+        output.puts(0x80,@memory,20)
+        output.puts(0x90,@memory=table[@y,@x],20)
+        @y +=1
+        sleep(0.5)
+      end
+      if @y >= 8
+        @y =0
+      end
+    end
+  end
