@@ -2,34 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cac1cff-fc13-414b-af1d-c025cfb9d726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/osu/config.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/osu/objects.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/beep.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/colors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/cptn_ruby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/cptn_ruby_map.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/explosion.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/gem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/header@2x.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/landscape.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/large_star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/smoke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/soldier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/space.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/starfighter.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/paint/media/tileset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/random/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/snake/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/waves/connection.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/waves_types.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/osu/osu_logics.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/osu/osu_logics.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/osu/osufile.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/osu/osufile.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/random/random.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/random/random.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/run.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/run.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/waves/waves.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/waves/waves.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/zel.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/button_reader.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/input.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/launchpad_class.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/beep.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/colors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/cptn_ruby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/cptn_ruby_map.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/explosion.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/gem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/header@2x.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/landscape.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/large_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/smoke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/soldier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/space.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/starfighter.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/media/tileset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/objects.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inapp/run.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launchpad_on_off.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loading.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lp.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ls.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake move part sector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake_gosu.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snakeback.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starfighter.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testowy.rb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,38 +56,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+        <entry file="file://$PROJECT_DIR$/app/osu/osufile.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="325">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/run.rb">
+        <entry file="file://$PROJECT_DIR$/app/osu/osu_logics.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/connection.rb">
+        <entry file="file://$PROJECT_DIR$/app/full_board/full_board_app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="7" selection-end-column="5" />
-            </state>
+            <state relative-caret-position="-369" />
           </provider>
         </entry>
       </file>
@@ -83,10 +88,13 @@
       <find>objec</find>
       <find>clear</find>
       <find>paddi</find>
+      <find>@notes_os</find>
+      <find>notes</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/full_board</dir>
       <dir>$PROJECT_DIR$/app</dir>
+      <dir>$PROJECT_DIR$/app/osu</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -96,12 +104,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/osu/osufile.rb" />
         <option value="$PROJECT_DIR$/app/snake/snake.rb" />
         <option value="$PROJECT_DIR$/app/random/random.rb" />
         <option value="$PROJECT_DIR$/app/waves/waves.rb" />
-        <option value="$PROJECT_DIR$/app/osu/osu_logics.rb" />
         <option value="$PROJECT_DIR$/app/run.rb" />
+        <option value="$PROJECT_DIR$/app/osu/osufile.rb" />
+        <option value="$PROJECT_DIR$/app/osu/osu_logics.rb" />
       </list>
     </option>
   </component>
@@ -133,23 +141,6 @@
               <item name="launchpad_zelears" type="b2602c69:ProjectViewProjectNode" />
               <item name="launchpad_zelears" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="launchpad_zelears" type="b2602c69:ProjectViewProjectNode" />
-              <item name="launchpad_zelears" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="launchpad_zelears" type="b2602c69:ProjectViewProjectNode" />
-              <item name="launchpad_zelears" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="snake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="launchpad_zelears" type="b2602c69:ProjectViewProjectNode" />
-              <item name="launchpad_zelears" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="waves" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -157,6 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -194,16 +186,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566645568082</updated>
-      <workItem from="1566645569444" duration="6458000" />
+      <workItem from="1566645569444" duration="9639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6458000" />
+    <option name="totallyTimeSpent" value="9639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -230,15 +221,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/osu/launchpad_class.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/osu/connection.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/full_board/full_board_app.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/random/connection.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -277,44 +259,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/paint/paintfile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/osu/objects.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/osu/osu_logics.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/paint/objects.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/osu/config.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/osu/osufile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -363,6 +314,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/paint/paintfile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/osu/launchpad_class.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/osu/connection.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/osu/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/full_board/full_board_app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-369" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/osu/osufile.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inapp/run.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/osu/osu_logics.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>

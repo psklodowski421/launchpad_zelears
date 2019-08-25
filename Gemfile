@@ -1,14 +1,7 @@
-# frozen_string_literal: true
+source 'http://rubygems.org'
 
-source "https://rubygems.org"
-
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-gem "unimidi"
-gem "gosu"
-gem "matrix"
+gem 'gosu'
+gem 'unimidi'
+gem 'matrix'
 gem "midi-eye"
-gem "pry"
-gem "ffi", '>=1.10.0'
-
-# gem "rails"
+gem 'pry'
