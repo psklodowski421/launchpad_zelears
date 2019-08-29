@@ -63,7 +63,7 @@ module Input
               @output.puts(mapper[0],mapper[1],mapper[2])
               loaded_hashes = {"voltage"=>mapper[0],"position"=>mapper[1], "color"=>mapper[2] }
               @array_of_hashes << loaded_hashes
-              sleep(0.1)
+              sleep(0.001)
             end
           end
 

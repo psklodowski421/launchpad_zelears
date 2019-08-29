@@ -10,7 +10,7 @@
     <orderEntry type="library" scope="PROVIDED" name="alsa-rawmidi (v0.3.2, rbenv: 2.4.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.0.2, rbenv: 2.4.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.2, rbenv: 2.4.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.11.1, rbenv: 2.4.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.10.0, rbenv: 2.4.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi-coremidi (v0.4.1, rbenv: 2.4.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="gosu (v0.14.5, rbenv: 2.4.4) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="matrix (v0.1.0, rbenv: 2.4.4) [gem]" level="application" />

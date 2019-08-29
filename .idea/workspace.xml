@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cac1cff-fc13-414b-af1d-c025cfb9d726" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/osu/osu_logics.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/osu/osu_logics.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/osu/osufile.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/osu/osufile.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/zel.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/button_reader.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/connection.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/input.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/launchpad_class.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/beep.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/colors.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/cptn_ruby.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/cptn_ruby_map.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/explosion.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/gem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/header@2x.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/landscape.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/large_star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/smoke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/soldier.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/starfighter.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/media/tileset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/objects.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inapp/run.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launchpad_on_off.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loading.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lp.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ls.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime commands" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake move part sector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/snake_gosu.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/snakeback.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starfighter.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testowy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/launchpad_zelears.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/launchpad_zelears.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,33 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/osu/osufile.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/osu/osu_logics.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/full_board/full_board_app.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -133,7 +64,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,6 +75,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,23 +118,19 @@
       <option name="presentableId" value="Default" />
       <updated>1566645568082</updated>
       <workItem from="1566645569444" duration="9639000" />
+      <workItem from="1566735171936" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9639000" />
+    <option name="totallyTimeSpent" value="9731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -211,10 +138,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,19 +276,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/full_board/full_board_app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inapp/run.rb" />
     <entry file="file://$PROJECT_DIR$/app/osu/osufile.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="720">
           <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inapp/run.rb">
+    <entry file="file://$PROJECT_DIR$/app/full_board/full_board_app.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/osu/osu_logics.rb">
