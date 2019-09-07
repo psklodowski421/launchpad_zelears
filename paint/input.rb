@@ -1,7 +1,7 @@
 module Input
   ##
   def input
-    @input = UniMIDI::Input.use(:first)
+    @input = UniMIDI::Input.first
   end
   ##
   def tools
