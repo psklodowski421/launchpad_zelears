@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Testme
   attr_accessor :random_memory
 
@@ -7,18 +9,12 @@ module Testme
     checker
   end
 
-  def
-
   def display_pos
-    if @dots_position.count < 10
-      if @counter % 60
-        generate_dot
-      end
-    end
+    generate_dot if @dots_position.count < 10 && (@counter % 60)
   end
 
   def generate_dot
-    @output.puts(0x90, sample=@notes_osu.sample, rand(1..120))
+    @output.puts(0x90, sample = @notes_osu.sample, rand(1..120))
     @dots_position << sample
   end
 

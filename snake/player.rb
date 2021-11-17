@@ -2,7 +2,7 @@ module Control
 
 end
 
-module Gamerules
+module GameRules
   def gamestate
     if @gameover == 0
     move

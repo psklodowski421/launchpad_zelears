@@ -1,13 +1,11 @@
-require 'gosu'
-require 'unimidi'
-require 'matrix'
-require 'midi-eye'
-require 'pry'
-$:.unshift(File.join("..", "lib"))
-Dir['./*.rb'].each {|file| require file }
+# frozen_string_literal: true
+
+$LOAD_PATH.unshift(File.join('..', 'lib'))
+Dir['./*.rb'].sort.each { |file| require file }
 
 class Sleeper < Gosu::Window
   attr_accessor :esc, :speed, :text, :timer
+
   include Connection
 
   def initialize
@@ -19,7 +17,6 @@ class Sleeper < Gosu::Window
     @font = Gosu::Font.new(20)
     @timer = 0
     @dots = 1
-
   end
 
   def button_down(id)
@@ -35,9 +32,9 @@ class Sleeper < Gosu::Window
     when Gosu::KB_ESCAPE
       @esc = 1
       notes.each do |note|
-        @output.puts(0x80,note,15)
+        @output.puts(0x80, note, 15)
       end
-      Welcome.new.show
+      MainLauncher.new.show
       close
     end
   end
@@ -47,29 +44,26 @@ class Sleeper < Gosu::Window
   end
 
   def kolorek
-    output.puts(0x90,notes.sample,rand(1..120))
+    output.puts(0x90, notes.sample, rand(1..120))
   end
 
   def coolspeed
-    (-1*@speed)+11
+    (-1 * @speed) + 11
   end
 
-  def update
-  end
+  def update; end
 
   def draw
     @font.draw_text("Speed: #{speed}", 250, 250, 10, 1, 1, color = 0xff_44ffff)
     @font.draw_text("Number of dots changes in cycle: #{@dots}", 150, 275, 10, 1, 1, color = 0xff_44ffff)
-    @timer +=1
-    if @speed ==0
-    elsif @speed <0
+    @timer += 1
+    if @speed.zero?
+    elsif @speed.negative?
       @speed = 0
     elsif @speed > 10
-      @speed =10
-    else
-      if @timer % coolspeed == 0
-        @dots.times {kolorek}
-      end
+      @speed = 10
+    elsif (@timer % coolspeed).zero?
+      @dots.times { kolorek }
     end
   end
 end

@@ -2,25 +2,23 @@
 
 require 'rubygems'
 require 'bundler/setup'
-require 'gosu'
-require 'unimidi'
-require 'matrix'
-require "midi-eye"
-require 'pry'
-$:.unshift(File.join("..", "lib"))
-Dir["./*.rb"].each {|file| require file }
-Dir["./snake/*.rb"].each {|file| require file }
-Dir["./random/*.rb"].each {|file| require file }
-Dir["./full_board/*.rb"].each {|file| require file }
-Dir["./notes_detect/*.rb"].each {|file| require file }
-Dir["./waves/*.rb"].each {|file| require file }
-Dir["./paint/*.rb"].each {|file| require file }
-Dir["./osu/*.rb"].each {|file| require file }
+require 'csv'
+Bundler.require
 
-WIDTH, HEIGHT = 1000, 800
+$LOAD_PATH.unshift(File.join('..', 'lib'))
+Dir['./*.rb'].sort.each { |file| require file }
+Dir['./snake/*.rb'].sort.each { |file| require file }
+Dir['./random/*.rb'].sort.each { |file| require file }
+Dir['./full_board/*.rb'].sort.each { |file| require file }
+Dir['./notes_detect/*.rb'].sort.each { |file| require file }
+Dir['./waves/*.rb'].sort.each { |file| require file }
+Dir['./paint/*.rb'].sort.each { |file| require file }
+Dir['./osu/*.rb'].sort.each { |file| require file }
 
+WIDTH = 1000
+HEIGHT = 800
 
-class Welcome <  Gosu::Window
+class MainLauncher < Gosu::Window
   include Launchpad
   include Objects
   include Connection
@@ -28,7 +26,7 @@ class Welcome <  Gosu::Window
   def initialize
     super 640, 480
     # connect
-    self.caption = "Party Maker!"
+    self.caption = 'Party Maker!'
 
     text =
       "Launchpad Menu
@@ -38,13 +36,12 @@ class Welcome <  Gosu::Window
        Waves - 4
        Paint - 5"
 
-
     # Remove all leading spaces so the text is left-aligned
-    text.gsub! /^ +/, ""
+    text.gsub!(/^ +/, '')
 
     @text = Gosu::Image.from_text text, 20
     clear
-    @background = Gosu::Image.new "media/space.png"
+    @background = Gosu::Image.new 'media/space.png'
   end
 
   def draw
@@ -66,9 +63,9 @@ class Welcome <  Gosu::Window
     when Gosu::KB_6
       Osu.new.show
     when Gosu::KB_ESCAPE
-      close
+      exit
     end
   end
 end
 
-Welcome.new.show if __FILE__ == $0
+MainLauncher.new.show if __FILE__ == $PROGRAM_NAME

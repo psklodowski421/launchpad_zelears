@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Objects
   PADDING = 20
   def menu
@@ -15,7 +17,7 @@ module Objects
 
     [1, 0].each do |extra_scale|
       @background.draw_rot WIDTH * 0.5, HEIGHT * 0.75, 0, angle, 0.5, 0.5,
-        scale + extra_scale, scale + extra_scale
+                           scale + extra_scale, scale + extra_scale
     end
   end
 end

@@ -12,7 +12,7 @@ class Snake < Gosu::Window
   attr_accessor :table, :output, :x, :y, :memory, :dir, :fps, :body, :apple, :counter, :color, :appley, :applex, :apples, :status, :gameover, :lose, :done
   include Config
   include Control
-  include Gamerules
+  include GameRules
   include Connection
   def initialize
     connect
@@ -37,7 +37,7 @@ class Snake < Gosu::Window
           notes.each do |note|
             @output.puts(0x80,note,15)
           end
-          Welcome.new.show
+          MainLauncher.new.show
         end
       end
       if Gosu.button_down? Gosu::KB_LEFT

@@ -11,5 +11,5 @@ How to run:
 1. Connect your launchpad
 2. write in console
 ```
-ruby run.rb
+./run.sh
 ```
